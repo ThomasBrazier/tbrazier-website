@@ -30,6 +30,9 @@ module:
 ## ADVANCED
 ############################
 
+backend:
+  name: git-gateway
+  branch: master
 enableGitInfo: false
 summaryLength: 30
 paginate: 10
@@ -73,6 +76,3 @@ sitemap:
   _merge: deep
 minify:
   _merge: deepi
-backend:
-  name: git-gateway
-  branch: master
